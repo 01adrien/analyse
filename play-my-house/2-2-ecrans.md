@@ -6,11 +6,11 @@
 
 ## Ecrans communs 3 types utilisateurs
 
-- home page
+- [home page](./wireframes/home-page.md)
 - signin/login
+- [page detail instrument](./wireframes/instrument-detail-page.md)
 - page liste instruments
-- page detail instrument
-- espace personnel
+- [espace personnel / profil](./wireframes/profil-page.md)
 - gestion de creneaux resa
 
 ## Ecrans utilisateurs
