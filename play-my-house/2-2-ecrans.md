@@ -11,7 +11,9 @@
 - [page detail instrument](./wireframes/instrument-detail-page.md)
 - page liste instruments
 - [espace personnel / profil](./wireframes/profil-page.md)
-- gestion de creneaux resa
+- gestion des creneaux
+- envoie de messages
+- messages recus
 
 ## Ecrans utilisateurs
 
@@ -24,4 +26,4 @@
 ## Ecrans administrateurs
 
 - validation annonce
-
+- suppression instruments / utilisateur

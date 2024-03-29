@@ -6,5 +6,5 @@
 
 ## Play my <span class="icon-big">🏠<span>
 
-Ce dossier fait l'analyse d'une application a destination des musiciens.
+Ce dossier fait l'analyse d'une application a destination des musiciens.<br>
 L'idee est de mettre en relation des musiciens ne possedant pas d'instruments avec qui en ont pour que l'un aille en jouer chez l'autre.
