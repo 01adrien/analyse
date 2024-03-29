@@ -8,7 +8,7 @@
 
 - [home page](./wireframes/home-page.md)
 - signin/login
-- [page detail instrument](./wireframes/instrument-detail-page.md)
+- <a href="./wireframes/instrument-detail-page.md" >page detail instrument
 - page liste instruments
 - [espace personnel / profil](./wireframes/profil-page.md)
 - gestion des creneaux
