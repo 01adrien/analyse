@@ -4,3 +4,6 @@
 
 # User storie reservation instrument
 
+En tant que **musiciens** je veux pouvoir reserver un creneaux de l'instrument de mon choix. <br>
+Afin d'aller en jouer chez son proprietaire.
+Pour cela
