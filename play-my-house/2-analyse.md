@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css"/>
 
-[<p><span class="icon-big">&#8592;</span>](./0-table-des-matieres.md)
+[<span class="icon-big">&#8592;</span>](./0-table-des-matieres.md)
 # 2.Analyse
 
 Cette partie regroupe et analyse les differents composants de l'application.

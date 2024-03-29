@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="style.css"/>
 
-[<p><span class="icon-big">&#8592;</span>](./0-table-des-matieres.md)
+[<span class="icon-big">&#8592;</span>](./0-table-des-matieres.md)
 # 1.Introduction
 
 ## Play my <span class="icon-big">🏠<span>
