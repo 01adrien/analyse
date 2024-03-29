@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="../style.css"/>
 
-[<p><span class="icon-big">&#8592;</span>](../2-analyse.md)
+[<p><span class="icon-big">&#8592;</span>](../2-2-ecrans.md)
 
 # Ecrans detail d'un instrument
 
-<img src="./detail-instrument.jpg">
+<img src="./detail-instrument.jpg" width="400px" class="img-center">
 <br>
 <br>
 Sur cette page on retrouve la recherche rapide et le menu burger.<br>

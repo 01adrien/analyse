@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="../style.css"/>
 
-[<p><span class="icon-big">&#8592;</span>](../2-analyse.md)
+[<p><span class="icon-big">&#8592;</span>](../2-2-ecrans.md)
 
 # Ecran page d'accueil
 
-<img src="./home-page.jpg">
-
+<img src="./home-page.jpg" width="400px" class="img-center">
+<br>
 En haut de la home page une barre de recherche rapide d'instrument.<br>
 en dessous une icone burger pour etendre le menu de l'application pour naviguer
 dans les differents ecrans.<br>
