@@ -8,5 +8,5 @@ Elle est divisee en plusieurs parties
 
 1. [Les utilisateurs](./2-1-utilisateurs.md)
 2. [Les ecrans](./2-2-ecrans.md)
-3. [Les users stories](./2-3-users-stories.md)
-4. ...??
+3. [Le backlog](./2-3-backlog.md)
+4. [modelisation base de données](./2-4-modelisation-database.md)
