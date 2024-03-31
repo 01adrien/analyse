@@ -21,7 +21,7 @@
 
 ## Ecrans proprietaires
 
-- ajouter instrument sur l'app
+- [ajouter instrument sur l'app](./wireframes/ajout-instrument.md)
 
 ## Ecrans administrateurs
 

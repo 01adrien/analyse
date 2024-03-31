@@ -13,7 +13,7 @@ Ces outils sont trés utiles pour organiser le travail de devellopement<br>
 -   [reservation instrument (utilisateur)](./users-stories/reservations.md)
 -   modification / suppression reservation (utilisateur)
 -   consultation liste annonces instrument (proprietaire)
--   [consultation reservation passees et futures (utilisateur et proprietaire)](./users-stories/historique-resa.md)
+-   [consultation reservations passees et futures (utilisateur et proprietaire)](./users-stories/historique-resa.md)
 -   creation profil (utilisateur et proprietaire)
 -   [creation et ajout instrument (proprietaire)](./users-stories/historique-resa.md)
 -   validation ajout instruments (admin)
