@@ -16,7 +16,7 @@ Je dois etre logge en tant que musicien et avoir au minimun effectuer une reserv
 Apres m'etre correctement identifie sur l'app, je clique sur le bouton setting.<br>
 De la je peux choisir la rubrique reservation passees ou reservations futures.<br>
 Je choisit les futures et ais acces a la liste des mes resa<br>
-Je pourrais les modifier d'ici
+Je pourrais les modifier d'ici.
 
 ## Regles metier
 

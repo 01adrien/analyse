@@ -1,1 +1,5 @@
-todo
+
+- intro dossier plus detaillee
+- faire wireframe ajout instrument + user storie
+- faire wireframe popup reservation instru
+- finir schema DB
