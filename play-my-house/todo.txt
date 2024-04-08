@@ -1,5 +1,8 @@
-
+- readme detail
 - intro dossier plus detaillee
+- description de l'analyse
+- graph mermaid parcours utilisateur 
 - faire wireframe ajout instrument + user storie
 - faire wireframe popup reservation instru
 - finir schema DB
+- meilleurs wireframe (figma ??) => en cours

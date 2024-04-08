@@ -4,7 +4,7 @@
 
 # Ecran page d'accueil
 
-<img src="./home-page.jpg" width="400px" class="img-center">
+<img src="./home-page.png" width="250px" height="700px" class="img-center">
 <br>
 En haut de la home page une barre de recherche rapide d'instrument.<br>
 en dessous une icone burger pour etendre le menu de l'application pour naviguer
