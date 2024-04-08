@@ -1,5 +1,5 @@
 [user]
-        #email = adriengaucher02@gmail.com
-        #user = 01adrien
+        email = adriengaucher02@gmail.com
+        user = 01adrien
 [credential]
-        helper = store
+        # helper = store
