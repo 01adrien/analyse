@@ -4,6 +4,8 @@
 
 # 2.2 - Les ecrans
 
+[lien figma wireframes](https://www.figma.com/file/Ub6AfutBk2W62vnilmRuNx/play-my-house?type=design&node-id=2-2&mode=design)
+
 ## Ecrans communs 3 types utilisateurs
 
 - [home page](./wireframes/home-page.md)

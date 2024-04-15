@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css"/>
 
-[<span class="icon-big">&#8592;</span>](./../2-3-users-stories.md)
+[<span class="icon-big">&#8592;</span>](./../2-3-backlog.md)
 
 # User storie reservation instrument
 
@@ -16,7 +16,8 @@ Sinon une popup s'ouvre lui demandant de se logger
 
 Apres avoir selectionné un instrument l'utilisateur clique sur le bouton reservation de la page detail de l'instrument.<br>
 Un composant calendrier s'ouvre et en cliquant sur un jour, il sera redirigé vers formulaire de reservation.<br>
-L'utilisateur choisit alors le jour et les horaires du **creneau**<br>
+L'utilisateur choisit alors les horaires du **creneau**<br>
+Une fois la reservation terminée un message sera envoyé dans la rubrique message de son espace personnel.
 
 ## Regles metier
 
