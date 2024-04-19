@@ -10,3 +10,4 @@ Elle est divisee en plusieurs parties
 2. [Les ecrans](./2-2-ecrans.md)
 3. [Le backlog](./2-3-backlog.md)
 4. [modelisation base de données](./2-4-modelisation-database.md)
+5. [diagrame UML](./5-diagrame-uml.md)

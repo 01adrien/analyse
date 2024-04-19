@@ -7,6 +7,8 @@
 Un backlog regroupe les differentes fonctionnalitees de l'application.<br>
 Elle sont ensuite detaillées dans des users stories<br>
 Ces outils sont trés utiles pour organiser le travail de developpement<br> 
+Apres le titre de chaque US, le type d'utilisateur concerne.<br>
+
 
 -   catalogue instruments (utilisateur)
 -   detail instrument (utilisateur)

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css"/>
 
-[<span class="icon-big">&#8592;</span>](./../2-3-users-stories.md)
+[<span class="icon-big">&#8592;</span>](../2-3-backlog.md)
 
 # User storie consultation futures reservations
 

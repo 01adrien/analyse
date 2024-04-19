@@ -4,22 +4,20 @@
 
 # 2.2 - Les ecrans
 
-[lien figma wireframes](https://www.figma.com/file/Ub6AfutBk2W62vnilmRuNx/play-my-house?type=design&node-id=2-2&mode=design)
-
 ## Ecrans communs 3 types utilisateurs
 
 - [home page](./wireframes/home-page.md)
 - signin/login
 - [page detail instrument](./wireframes/instrument-detail-page.md)
 - page liste instruments
-- [espace personnel / profil](./wireframes/profil-page.md)
+- espace personnel / profil
 - gestion des creneaux
 - envoie de messages
 - messages recus
 
 ## Ecrans utilisateurs
 
-- reservation instrument
+- [reservation creneau](./wireframes/reservation-instrument.md)
 
 ## Ecrans proprietaires
 

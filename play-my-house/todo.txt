@@ -1,5 +1,3 @@
-- description de l'analyse
-- faire wireframe ajout instrument + user storie
-- faire wireframe popup reservation instru
-- finir schema DB
-- meilleurs wireframe (figma ??) => en cours
+- intro dossier (peut mieux faire)
+- description de l'analyse (peut mieux faire)
+- graph mermaid parcours utilisateur (en cours)
