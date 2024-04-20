@@ -9,31 +9,55 @@ title: play my house app diagramme de classe
 ---
 classDiagram
     note "test note"
-    User <|-- Instrument
-    Instrument <|-- Reservation 
+    User "1" <--> "0..*" Instrument
+    Instrument "1" <--> "0..*" Reservation 
     note for Reservation "note for Reservation"
 
-
     class Reservation {
-        +int id
-        +Date start
-        +Date end
+        id: int
+        start: Date
+        end: Date
+        user: User
+        instrument: Instrument
     }
 
     class User {
-        +int id
-        +String lname
-        +String fname
-        +String password
-        +String telephone
-        +String adress
+        id: int
+        lname: String 
+        fname: String 
+        password: String 
+        telephone: String
+        email: String 
+        adress: String 
+        role: UserRole
+        Image: image
+    }
+
+    class UserRole {
+        id: int
+        name: String
     }
 
     class Instrument {
-        +int id
-        +String name
-        +String description
-        +Date createdAt
+        id: int 
+        name: String 
+        description: String 
+        createdAt: Date 
+        user: User
+        images: Array<Image>
+    }
+
+
+
+    class Image {
+        id: int
+        url: String
+        type: ImageType
+    }
+
+    class ImageType {
+        id: int
+        name: String
     }
 
 ```
