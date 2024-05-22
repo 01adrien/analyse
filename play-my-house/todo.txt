@@ -1,1 +1,3 @@
-todo
+- intro dossier (peut mieux faire)
+- description de l'analyse (peut mieux faire)
+- graph mermaid parcours utilisateur (en cours)

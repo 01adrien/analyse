@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css"/>
 
-[<p><span class="icon-big">&#8592;</span>](./2-analyse.md)
+[<span class="icon-big">&#8592;</span>](./2-analyse.md)
 
 # 2.2 - Les ecrans
 
@@ -10,18 +10,20 @@
 - signin/login
 - [page detail instrument](./wireframes/instrument-detail-page.md)
 - page liste instruments
-- [espace personnel / profil](./wireframes/profil-page.md)
-- gestion de creneaux resa
+- espace personnel / profil
+- gestion des creneaux
+- envoie de messages
+- messages recus
 
 ## Ecrans utilisateurs
 
-- reservation instrument
+- [reservation creneau](./wireframes/reservation-instrument.md)
 
 ## Ecrans proprietaires
 
-- ajouter instrument sur l'app
+- [ajouter instrument sur l'app](./wireframes/ajout-instrument.md)
 
 ## Ecrans administrateurs
 
 - validation annonce
-
+- suppression instruments / utilisateur
