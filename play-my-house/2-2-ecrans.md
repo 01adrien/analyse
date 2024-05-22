@@ -4,6 +4,9 @@
 
 # 2.2 - Les ecrans
 
+Liste des differents ecrans de l'application.<br>
+Certain sont accompagnes de wireframe (suivre le lien)
+
 ## Ecrans communs 3 types utilisateurs
 
 - [home page](./wireframes/home-page.md)
@@ -15,7 +18,7 @@
 - envoie de messages
 - messages recus
 
-## Ecrans utilisateurs
+## Ecrans musiciens
 
 - [reservation creneau](./wireframes/reservation-instrument.md)
 

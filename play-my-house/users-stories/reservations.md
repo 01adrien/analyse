@@ -22,4 +22,5 @@ Une fois la reservation terminée un message sera envoyé dans la rubrique messa
 ## Regles metier
 
 Le debut de creneau ne peut pas etre aprés la fin<br>
-Un **creneau** ne peut etre pris le jour meme.
+Un **creneau** ne peut etre pris le jour meme.<br>
+Tant qu'il y a des creneaux de libre l'instrument est disponible

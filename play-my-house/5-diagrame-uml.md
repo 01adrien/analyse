@@ -8,10 +8,22 @@
 title: play my house app diagramme de classe 
 ---
 classDiagram
-    note "test note"
     User "1" <--> "0..*" Instrument
     Instrument "1" <--> "0..*" Reservation 
-    note for Reservation "note for Reservation"
+    User "1" <--> "0..*" Message
+    UserRole "1" <--> "0..*" User
+    InstrumentFamily "1" <--> "1..*" Instrument
+    InstrumentBrand "1" <--> "1..*" Instrument
+    InstrumentType "1" <--> "1..*" Instrument
+    Image "1" <--> "1" User
+    Instrument "1" <--> "1..*" Image
+    Instrument "1..*" <--> "1" InstrumentStatus
+    note for InstrumentStatus "En attente
+                                Refus
+                                Accepte"
+    note for UserRole "musicien
+                        proprietaire
+                        admin"
 
     class Reservation {
         id: int
@@ -23,8 +35,8 @@ classDiagram
 
     class User {
         id: int
-        lname: String 
-        fname: String 
+        lastName: String 
+        firstName: String 
         password: String 
         telephone: String
         email: String 
@@ -33,9 +45,12 @@ classDiagram
         Image: image
     }
 
-    class UserRole {
+    class Message {
         id: int
-        name: String
+        dest: user
+        exp: user
+        content: String
+        date: Date
     }
 
     class Instrument {
@@ -45,19 +60,41 @@ classDiagram
         createdAt: Date 
         user: User
         images: Array<Image>
+        family: InstrumentFamily
+        type: InstrumentType
+        brand: InstrumentBrand
+
     }
 
+    class UserRole {
+        id: int
+        name: String
+    }
 
+    class InstrumentFamily {
+        id: int
+        String: name
+    }
+
+    class InstrumentType {
+        id: int
+        String: name
+    }
+
+    class InstrumentBrand {
+        id: int
+        String: name
+    }
+
+    class InstrumentStatus {
+        id: int
+        String: name
+    }
 
     class Image {
         id: int
         url: String
-        type: ImageType
     }
 
-    class ImageType {
-        id: int
-        name: String
-    }
 
 ```
