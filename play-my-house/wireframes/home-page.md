@@ -4,12 +4,15 @@
 
 # Ecran page d'accueil
 
-<img src="./home-page.png" width="250px" height="700px" class="img-center">
+<br>
+<br>
+<img src="./home-page.png" width="300px" height="800px" class="img-center">
+<br>
 <br>
 En haut de la home page une barre de recherche rapide d'instrument.<br>
-en dessous une icone burger pour etendre le menu de l'application pour naviguer
+au dessus une icone burger pour etendre le menu de l'application pour naviguer
 dans les differents ecrans.<br>
 <a href="https://tailwindcomponents.com/component/navbar-hamburger-menu">exemple composant menu burger</a><br>
-Ensuite un caroussel avec differentes images et un texte de presentation du site.<br>
+Ensuite un encart avec un texte plus un bouton pour s'enregistrer.<br>
 S'en suit la liste en image des 10 derniers instruments arrives sur la plateforme<br>
 Si l'utilisateur clique sur un instrument, il sera redirge sur la page de detail.

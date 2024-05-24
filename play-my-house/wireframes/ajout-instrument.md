@@ -7,7 +7,7 @@
 <img src="../wireframes/ajout-instrument.png" class = "img-center">
 
 <br>
-Sur cette page l'utilisateur doit remplir un formulaire pour decrire son instrument et les disponibilitees<br\>
+Sur cette page l'utilisateur doit remplir un formulaire pour decrire son instrument et les disponibilitees<br>
 Il sera donc invite a rentrer le nom, la famille, le type, la marque et une courte description de son instrument.<br>
 Il pourra egalement ajouter des image avec le bouton d'upload.<br>
 Ensuite vient la partie de selection des creneaux par jour d'une semaine type.<br>

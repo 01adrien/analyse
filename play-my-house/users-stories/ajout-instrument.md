@@ -34,8 +34,8 @@ L'instrument est en attente de validation par l'admin et un message sera envoyer
 Les familles, marques et types d'instrument sont a choisir dans un menu deroulant,
 Issus de la base de donnees.
 L'utilisateur ne peut pas les ecrires coontrairement au nom et description.<br>
-Le nom de l'instrument ne peut depasser 50 caracteres et la description 1000 caracteres. 
-Et de peuvent etre nul<br>
+Le nom de l'instrument ne peut depasser 50 caracteres et la description 1000 caracteres.<br>
+Et ne pas peuvent etre nul<br>
 Un maximum de 5 photos par instrument<br>
 L'input suivant doit etre 'disable' si celui d'avant n'est pas rempli.<br>
 L'amplitude horaires de creneaux est de 9h a 22h tous les jours de la semaine<br>
