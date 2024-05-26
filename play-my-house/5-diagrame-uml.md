@@ -2,10 +2,14 @@
 
 [<span class="icon-big">&#8592;</span>](./2-analyse.md)
 
+Le diagramme UML est utilise pour representer les differentes classes et leurs attributs ( eventuellement les methodes).<br>
+Ainsi que les relations d'heritage.<br>
+On l'utlise pour decouper le programme en differentes classes / fonctionnalitees<br><br> 
+
 
 ```mermaid
     ---
-title: play my house app diagramme de classe 
+title: play my house app UML
 ---
 classDiagram
     User "1" <--> "0..*" Instrument
