@@ -4,7 +4,7 @@
 
 # 2.1 - Les Utilisateurs
 
--  Les **propriétaires** d'instruments, ce sont eux qui mettent à disposition leurs instruments à leur domicile.
+-  Les **propriétaires** d'instruments, ce sont eux qui mettent à disposition leurs instruments à domicile.
 Pour ce faire ils les ajoutent sur l'application en choisissant des créneaux de disponibilités du lundi au dimanche.
 - Les **musiciens** , ce sont eux qui vont utiliser les instruments publiés sur la plateforme, en réservant les créneaux mis à disposition par les propriétaires.
 - L'**administrateur** de la plateforme, c'est lui qui valide les annonces d'instruments pour qu'elles soient visibles sur l'application.

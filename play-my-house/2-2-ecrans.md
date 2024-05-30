@@ -4,23 +4,23 @@
 
 # 2.2 - Les ecrans
 
-Liste des differents ecrans de l'application.<br>
-Certain sont accompagnes de wireframe (suivre le lien)
+Liste des differents écrans de l'application.<br>
+Certains sont accompagnés de wireframe (suivre le lien)
 
-## Ecrans communs 3 types utilisateurs
+## Ecrans communs aux 3 types d'utilisateurs
 
 - [home page](./wireframes/home-page.md)
 - signin/login
-- [page detail instrument](./wireframes/instrument-detail-page.md)
+- [page détail instrument](./wireframes/instrument-detail-page.md)
 - page liste instruments
 - espace personnel / profil
-- gestion des creneaux
+- gestion des créneaux
 - envoie de messages
-- messages recus
+- messages reçus
 
 ## Ecrans musiciens
 
-- [reservation creneau](./wireframes/reservation-instrument.md)
+- [réservation creneau](./wireframes/reservation-instrument.md)
 
 ## Ecrans proprietaires
 
@@ -29,4 +29,4 @@ Certain sont accompagnes de wireframe (suivre le lien)
 ## Ecrans administrateurs
 
 - validation annonce
-- suppression instruments / utilisateur
+- suppression instruments / utilisateurs

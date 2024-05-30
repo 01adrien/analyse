@@ -7,5 +7,5 @@
 - **Proprietaires** : Ce sont les utilisateurs qui possedent les instruments et les mettent a disposition sur la plateforme.
 - **Musiciens** : Ce sont les utilisateurs qui vont aller jouer des instruments mis a disposition par les propietaires.
 - **Admin**: C'est l'utilisateur qui gere/modere l'app.
-- **creneaux**: Cela represente une reservation delimitée par un horaire (dans la meme journée).
-
+- **reservation**: Cela represente une reservation d'un instrument disponible sur la plateforme delimitée par un horaire (dans la meme journée).
+- **timeline**: Ce terme représente l'amplitude de disponibilité d'un instrument sur une semaine type. Cette information est donnée par le proprietaire lors de l'ajout de l'instrument sur l'app.

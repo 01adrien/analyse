@@ -4,24 +4,27 @@
 
 Le diagramme UML est utilise pour representer les differentes classes et leurs attributs ( eventuellement les methodes).<br>
 Ainsi que les relations d'heritage.<br>
-On l'utlise pour decouper le programme en differentes classes / fonctionnalitees<br><br> 
-
+On l'utlise pour decouper le programme en differentes classes / fonctionnalitees
+<br>
+<br> 
 
 ```mermaid
     ---
 title: play my house app UML
 ---
 classDiagram
-    User "1" <--> "0..*" Instrument
-    Instrument "1" <--> "0..*" Reservation 
-    User "1" <--> "0..*" Message
-    UserRole "1" <--> "0..*" User
-    InstrumentFamily "1" <--> "1..*" Instrument
-    InstrumentBrand "1" <--> "1..*" Instrument
-    InstrumentType "1" <--> "1..*" Instrument
-    Image "1" <--> "1" User
-    Instrument "1" <--> "1..*" Image
-    Instrument "1..*" <--> "1" InstrumentStatus
+    User "1" -- "0..*" Instrument
+    Instrument "1" -- "0..*" Reservation 
+    User "1" -- "0..*" Message
+    UserRole "1..*" -- "1" User
+    InstrumentFamily "1" -- "1..*" Instrument
+    InstrumentBrand "1" -- "1..*" Instrument
+    InstrumentType "1" -- "1..*" Instrument
+    Image "1" -- "1" User
+    Instrument "1" -- "1..5" Image
+    Instrument "1..*" -- "1" InstrumentStatus
+    Instrument "1" -- "1..*" Creneau
+
     note for InstrumentStatus "En attente
                                 Refus
                                 Accepte"
@@ -30,7 +33,7 @@ classDiagram
                         admin"
 
     class Reservation {
-        id: int
+        id: Int
         start: Date
         end: Date
         user: User
@@ -38,65 +41,73 @@ classDiagram
     }
 
     class User {
-        id: int
+        id: Int
         lastName: String 
         firstName: String 
         password: String 
         telephone: String
         email: String 
         adress: String 
-        role: UserRole
-        Image: image
+        role: Array [UserRole]
+        image: Image
     }
 
     class Message {
-        id: int
-        dest: user
-        exp: user
+        id: Int
+        recipient: User
+        sender: User
         content: String
         date: Date
     }
 
     class Instrument {
-        id: int 
+        id: Int 
         name: String 
         description: String 
         createdAt: Date 
         user: User
-        images: Array<Image>
+        images: Array [Image]
         family: InstrumentFamily
+        timeline: Array [Creneau]
         type: InstrumentType
         brand: InstrumentBrand
 
     }
 
+    class Creneau {
+        id: Int
+        day: Date
+        start: Int
+        end: Int
+    }
+
     class UserRole {
-        id: int
+        id: Int
         name: String
     }
 
     class InstrumentFamily {
-        id: int
-        String: name
+        id: Int
+        name: String
     }
 
     class InstrumentType {
-        id: int
-        String: name
+        id: Int
+        name: String
     }
 
     class InstrumentBrand {
-        id: int
-        String: name
+        id: Int
+        naem: String
     }
 
     class InstrumentStatus {
-        id: int
-        String: name
+        id: Int
+        name: String
     }
 
     class Image {
-        id: int
+        id: Int
         url: String
     }
 

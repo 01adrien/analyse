@@ -11,8 +11,8 @@
 <br>
 En haut de la home page une barre de recherche rapide d'instrument.<br>
 au dessus une icone burger pour etendre le menu de l'application pour naviguer
-dans les differents ecrans.<br>
+dans les différents écrans.<br>
 <a href="https://tailwindcomponents.com/component/navbar-hamburger-menu">exemple composant menu burger</a><br>
 Ensuite un encart avec un texte plus un bouton pour s'enregistrer.<br>
-S'en suit la liste en image des 10 derniers instruments arrives sur la plateforme<br>
-Si l'utilisateur clique sur un instrument, il sera redirge sur la page de detail.
+S'en suit la liste en image des 10 derniers instruments arrivés sur la plateforme<br>
+Si l'utilisateur clique sur un instrument, il sera redirigé sur la page de detail de l'instrument.
