@@ -3,8 +3,8 @@
 [<span class="icon-big">&#8592;</span>](./0-table-des-matieres.md)
 # 2.Analyse
 
-Cette partie regroupe et analyse les differents composants de l'application.
-Elle est divisee en plusieurs parties
+Cette partie regroupe et analyse les différents composants de l'application.
+Elle est divisée en plusieurs parties
 
 1. [Les utilisateurs](./2-1-utilisateurs.md)
 2. [Les ecrans](./2-2-ecrans.md)
